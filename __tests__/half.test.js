@@ -1,6 +1,6 @@
-import { test, expect } from '@jest/globals';
-import half from '../index.js';
+import { test, expect } from "@jest/globals";
+import half from "../index.js";
 
-test('half', () => {
+test("half", () => {
   expect(half(6)).toBe(3);
 });
